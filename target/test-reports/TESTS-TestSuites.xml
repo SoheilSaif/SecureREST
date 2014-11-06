@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Soheils-MacBook-Pro.local" id="0" name="GormTokenStorageServiceSpec" package="" tests="9" time="8.524" timestamp="2014-11-02T16:47:16">
+      <properties />
+
+      <testcase classname="GormTokenStorageServiceSpec" name="storeToken will create a token for the logged in user" time="1.248" />
+
+      <testcase classname="GormTokenStorageServiceSpec" name="storeToken will also remove all expired tokens" time="0.364" />
+
+      <testcase classname="GormTokenStorageServiceSpec" name="loadUserByToken loads logged in api user" time="0.342" />
+
+      <testcase classname="GormTokenStorageServiceSpec" name="loadUserByToken throws exception for not available token" time="0.284" />
+
+      <testcase classname="GormTokenStorageServiceSpec" name="removeToken will remove the token" time="0.251" />
+
+      <testcase classname="GormTokenStorageServiceSpec" name="removeToken will throw exception if the token doesn&apos;t exist" time="0.245" />
+
+      <testcase classname="GormTokenStorageServiceSpec" name="findExistingToken will return the existing token" time="0.251" />
+
+      <testcase classname="GormTokenStorageServiceSpec" name="findExistingToken will update the token lastUpdated" time="5.268" />
+
+      <testcase classname="GormTokenStorageServiceSpec" name="findExistingToken will return null if the token doesn&apos;t exist" time="0.235" />
+
+      <system-out><![CDATA[--Output from storeToken will create a token for the logged in user--
+--Output from storeToken will also remove all expired tokens--
+--Output from loadUserByToken loads logged in api user--
+--Output from loadUserByToken throws exception for not available token--
+--Output from removeToken will remove the token--
+--Output from removeToken will throw exception if the token doesn't exist--
+--Output from findExistingToken will return the existing token--
+--Output from findExistingToken will update the token lastUpdated--
+--Output from findExistingToken will return null if the token doesn't exist--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from storeToken will create a token for the logged in user--
+--Output from storeToken will also remove all expired tokens--
+--Output from loadUserByToken loads logged in api user--
+--Output from loadUserByToken throws exception for not available token--
+--Output from removeToken will remove the token--
+--Output from removeToken will throw exception if the token doesn't exist--
+--Output from findExistingToken will return the existing token--
+--Output from findExistingToken will update the token lastUpdated--
+--Output from findExistingToken will return null if the token doesn't exist--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

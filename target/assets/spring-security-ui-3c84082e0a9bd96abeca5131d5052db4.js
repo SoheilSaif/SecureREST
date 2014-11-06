@@ -1,0 +1,1 @@
+"undefined"==typeof SpringSecurityUI&&(SpringSecurityUI=new Object,SpringSecurityUI.message=function(type,text,duration){var clazz="icon ";"error"==type?clazz+="icon_error":"info"==type&&(clazz+="icon_info"),$.jGrowl('<span class="'+clazz+'">'+text+"</span>",{life:duration})});
